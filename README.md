@@ -8,7 +8,7 @@ This program is a simple program of working of logical AND gate and NOT gate tha
 ## Getting Started
 ### Executing program
        
-javascript
+```javascript
 pragma circom 2.0.0;
 
 /*This circuit template checks that c is the multiplication of a and b.*/  
@@ -54,7 +54,8 @@ template NOT() {
     out <== 1 + in - 2*in;
 }
 
-component main = Multiplier2();                            
+component main = Multiplier2();
+```                            
 
 To compile the code, various commands have to be executed sequentially in the terminal that is-
 1. npm i
